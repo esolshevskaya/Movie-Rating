@@ -1,0 +1,18 @@
+/* src/components/StarRating.css */
+.star {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1;
+    font-size: 1.25rem;
+    vertical-align: middle;
+    text-align: center;
+    user-select: none;
+    transition: fill 0.2s ease;
+    cursor: pointer;
+}
+
+.star-rating {
+    display: flex;
+    gap: 0.1875rem;
+}
